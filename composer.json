@@ -1,0 +1,24 @@
+{
+	"name": "ilali/wp-create-post-type",
+	"description": "A helper to create worpdress custom post type",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Ilali\\WpCreatePostType\\": "src/"
+		},
+		"files": [
+			"src/index.php"
+		]
+	},
+	"authors": [
+		{
+			"name": "Axel Ilali",
+			"email": "axel.ilali@yahoo.fr"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^7.4"
+	}
+}
